@@ -6,21 +6,21 @@ body {
 
 /* here we applying the some css for image */
 .img-box{
-  width: 45%;
-  height: 80%;
-  position: absolute;
-  bottom: 0;
-  right: 100px;
+  /* width: 45%; */
+  /* height: 80%; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* right: 100px; */
 }
 
-.img-box img{
+/* .img-box img{
   height: 100%;
   position: absolute;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
   transition:  bottom 1s ,left 1s;
-}
+} */
 
 .img-box:hover .back-img{
   bottom: 40px;
@@ -503,15 +503,15 @@ input{
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
-  background-size: auto;
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* background-size: auto; */
   position: relative;
 }
 
 @media (min-width: 992px) {
   #hero {
-    padding-left: 160px;
+    /* padding-left: 160px; */
   }
 }
 
@@ -521,11 +521,11 @@ input{
   content: "";
   /* background: rgba(255, 255, 255, 0.8); */
   background: #edf2fc;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
 }
 
 #hero h1 {
@@ -1463,4 +1463,10 @@ img{
 
 #footer .credits {
   font-size: 13px;
+}
+section#hero .img-box img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
